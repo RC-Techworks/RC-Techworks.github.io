@@ -57,10 +57,47 @@
             background: #4a9eff;
             color: #0a0a0a;
         }
-        .location {
+        .blog-link {
+            display: inline-block;
+            margin-top: 1rem;
+            color: #4a9eff;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        .blog-link:hover {
+            text-decoration: underline;
+        }
+        .locations {
             margin-top: 3rem;
-            color: #666;
             font-size: 0.85rem;
+        }
+        .locations a {
+            color: #666;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .locations a:hover {
+            color: #4a9eff;
+        }
+        .locations span {
+            color: #444;
+            margin: 0 0.25rem;
+        }
+        .tools {
+            margin-top: 1.5rem;
+            font-size: 0.8rem;
+        }
+        .tools a {
+            color: #555;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .tools a:hover {
+            color: #4a9eff;
+        }
+        .tools span {
+            color: #333;
+            margin: 0 0.25rem;
         }
     </style>
 </head>
@@ -70,7 +107,21 @@
         <p class="tagline">Managed IT Services for Seattle & Tacoma</p>
         <p>Complete IT management, 24/7 monitoring, and cybersecurity for businesses throughout Pierce and King Counties. Flexible agreements without multi-year lock-ins.</p>
         <a href="https://rain-city.tech" class="main-link">rain-city.tech</a>
-        <p class="location">Seattle · Tacoma · Bellevue · Kent · Puyallup</p>
+        <br>
+        <a href="https://rain-city.tech/blog" class="blog-link">Read Our Blog</a>
+        <p class="locations">
+            <a href="https://rain-city.tech/locations/seattle/">Seattle</a><span>·</span>
+            <a href="https://rain-city.tech/locations/tacoma/">Tacoma</a><span>·</span>
+            <a href="https://rain-city.tech/locations/federal-way/">Federal Way</a><span>·</span>
+            <a href="https://rain-city.tech/locations/puyallup/">Puyallup</a><span>·</span>
+            <a href="https://rain-city.tech/locations/auburn/">Auburn</a><span>·</span>
+            <a href="https://rain-city.tech/locations/kent/">Kent</a>
+        </p>
+        <p class="tools">
+            <a href="https://techkit.net">TechKit</a><span>·</span>
+            <a href="https://docfuse.net">DocFuse</a><span>·</span>
+            <a href="https://dnsrecon.io">DNSRecon</a>
+        </p>
     </div>
 </body>
 </html>
